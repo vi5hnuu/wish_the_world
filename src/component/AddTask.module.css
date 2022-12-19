@@ -1,0 +1,37 @@
+.add_task {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 60rem;
+  max-width: 90%;
+  padding: 1rem;
+  margin: auto;
+  margin-bottom: 2.5rem;
+  opacity: 0.8;
+  transition: all 1s;
+}
+.add_task:hover {
+  opacity: 1;
+}
+.form {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+.task_text {
+  border: none;
+  border-bottom: 2px solid #aaa;
+  flex: 1;
+  outline: none;
+}
+.btn_add_task {
+  border: none;
+  background-color: rgb(99, 30, 45);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  transition: all 1s;
+}
+.btn_add_task:hover,
+.btn_add_task:active {
+  background-color: rgb(44, 5, 14);
+}

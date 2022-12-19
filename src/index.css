@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #444;
+  padding: 2.5rem;
+  background-image: url("./asset/background.jpg");
+  background-size: cover;
+}

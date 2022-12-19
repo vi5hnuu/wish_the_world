@@ -1,0 +1,30 @@
+.task_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.task {
+  background-color: rgb(228, 215, 215);
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  border-radius: 5px;
+  transition: all 1s;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+  width: 0;
+  flex: 1;
+  overflow-wrap: break-word;
+}
+.task:hover {
+  background-color: rgb(156, 149, 149);
+}
+
+.delete_btn {
+  border: none;
+  background: none;
+  margin: 0 0.5rem;
+}
+.delete_btn img {
+  width: 3rem;
+}
