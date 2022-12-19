@@ -8,7 +8,7 @@ function TaskList() {
     const tskCtx = useContext(TaskContext)
 
     return <ul className={classes.task_list}>
-        {tskCtx.tasks.length === 0 && <p className={classes.no_task}>😊No Task Found😊</p>}
+        {tskCtx.tasks.length === 0 && <p className={classes.no_task}>😊No Wishes Found😊</p>}
         {tskCtx.tasks.map(task => {
             return <Task key={task.id} id={task.id} taskText={task.taskText} />
         })}

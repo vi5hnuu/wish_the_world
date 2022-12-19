@@ -8,6 +8,7 @@ html {
 }
 
 body {
+  position: relative;
   background-color: #444;
   padding: 2.5rem;
   background-image: url("./asset/background.jpg");
